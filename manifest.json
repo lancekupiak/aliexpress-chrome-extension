@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Thieve",
+  "version": "0.1.2",
+  "description": "Aliexpress prodcut filter",
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["jquery.js","content.js"],
+    "matches": ["https://www.aliexpress.com/*"]
+  }]
+
+}
